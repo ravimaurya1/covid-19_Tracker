@@ -1,0 +1,27 @@
+.graph {
+  display: flex;
+  background-color: white;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+.donut {
+  width: 50%;
+}
+.line {
+  width: 50%;
+}
+@media only screen and (max-width: 1023px) {
+  .graph {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1.5rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .graph {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}

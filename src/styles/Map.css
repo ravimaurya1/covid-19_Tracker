@@ -1,0 +1,38 @@
+.ravi {
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.Details {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding-top: 0.9rem;
+}
+
+.Confirmed {
+  width: 20%;
+  background-color: rgb(236, 150, 150);
+  border-radius: 1rem;
+}
+.Active {
+  width: 20%;
+  background-color: rgb(156, 156, 247);
+  border-radius: 1rem;
+}
+.Recovered {
+  width: 20%;
+  background-color: rgb(175, 248, 175);
+  border-radius: 1rem;
+}
+.Deceased {
+  width: 20%;
+  background-color: rgb(184, 184, 184);
+  border-radius: 1rem;
+}
+
+.Last h4 {
+  text-align: right;
+  color: rgb(123, 236, 123);
+  padding-right: 2rem;
+}
