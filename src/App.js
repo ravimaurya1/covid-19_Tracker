@@ -38,6 +38,8 @@ function App() {
     });
   }, []);
   return (
+    <>
+    {dailyState.length > 0 && (
     <div className="App">
       <div className="left">
         <CovidTitle />
@@ -60,6 +62,8 @@ function App() {
         />
       </div>
     </div>
+    )}
+    </>
   );
 }
 
